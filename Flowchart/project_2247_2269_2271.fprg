@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="atich"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-19 12:31:33 AM"/>
+        <attribute name="created" value="YXRpY2g7REVTS1RPUC1LVVJSREQ2OzIwMjMtMTEtMTc7MTA6MzE6MzkgUE07Mjg5Ng=="/>
+        <attribute name="edited" value="YXRpY2g7REVTS1RPUC1LVVJSREQ2OzIwMjMtMTEtMTk7MTI6MzE6MzMgQU07MTA7MzAzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;****************************************************************&quot;" newline="True"/>
+            <output expression="&quot;&#3621;&#3641;&#3585;&#3588;&#3657;&#3634;&#3592;&#3632;&#3648;&#3621;&#3639;&#3629;&#3585;&#3595;&#3639;&#3657;&#3629;&#3626;&#3636;&#3609;&#3588;&#3657;&#3634;&#3649;&#3610;&#3610;&#3651;&#3604;&quot;" newline="True"/>
+            <output expression="&quot;1 : &#3649;&#3610;&#3610;&#3649;&#3618;&#3585;&#3594;&#3636;&#3657;&#3609;   2 : &#3649;&#3610;&#3610;&#3648;&#3595;&#3655;&#3605; 3 : &#3649;&#3610;&#3610;&#3650;&#3611;&#3619;&#3650;&#3617;&#3594;&#3633;&#3656;&#3609;&quot;" newline="True"/>
+            <output expression="&quot;****************************************************************&quot;" newline="True"/>
+            <declare name="ch, i514, r778" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <input variable="ch"/>
+            <if expression="ch == 2">
+                <then>
+                    <output expression="&quot;CPU : &quot;" newline="True"/>
+                    <output expression="&quot;Choose 1: I5-14600KF : 12790 bath&quot;" newline="True"/>
+                    <output expression="&quot;Chosse 2: Ryzen 7 7800X3D : 162000 bath&quot;" newline="True"/>
+                    <input variable="ch"/>
+                    <assign variable="i514" expression="12790"/>
+                    <assign variable="r778" expression="16200"/>
+                    <assign variable="sum" expression="0"/>
+                    <if expression="ch == 1">
+                        <then>
+                            <assign variable="sum" expression="sum+i514"/>
+                        </then>
+                        <else>
+                            <if expression="ch == 2">
+                                <then>
+                                    <assign variable="sum" expression="sum+r778"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <output expression="&quot;Mainboard : &quot;" newline="True"/>
+                    <output expression="&quot;Chose 1:Asus Ex-B760M : 3850 &quot;" newline="True"/>
+                    <output expression="&quot;Choose 2:GIGABYTE H610M K DDR4 : 2490 &quot;" newline="True"/>
+                    <output expression="&quot;Choose 3 : ASUS ROG Strix Z790-I Gaming WIFI : 25900&quot;" newline="True"/>
+                    <input variable="ch"/>
+                    <declare name="as760, ggh61, asz79" type="Integer" array="False" size=""/>
+                    <assign variable="as760" expression="3850"/>
+                    <assign variable="ggh61" expression="2490"/>
+                    <assign variable="asz79" expression="25900"/>
+                    <if expression="ch == 1">
+                        <then>
+                            <assign variable="sum" expression="sum+as760"/>
+                        </then>
+                        <else>
+                            <if expression="ch == 2">
+                                <then>
+                                    <assign variable="sum" expression="sum+ggh61"/>
+                                </then>
+                                <else>
+                                    <if expression="ch == 3">
+                                        <then>
+                                            <assign variable="sum" expression="sum+asz79"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 3 : &quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <output expression="&quot;Choose 1 : XFX Speedster QICK 319 Radeon RX 7800 XT Core Edition : 19900&quot;" newline="True"/>
+                    <output expression="&quot;Choose 2: COLORFUL iGame GeForce RTX 4070 Ti Ultra W OC-V : 31900&quot;" newline="True"/>
+                    <declare name="rx7800, rtx4070" type="Integer" array="False" size=""/>
+                    <assign variable="rx7800" expression="19900"/>
+                    <assign variable="rtx4070" expression="31900"/>
+                    <input variable="ch"/>
+                    <if expression="ch == 2">
+                        <then>
+                            <assign variable="sum" expression="sum + rtx4070"/>
+                        </then>
+                        <else>
+                            <if expression="ch == 1">
+                                <then>
+                                    <assign variable="sum" expression="sum+rx7800"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <output expression="&quot;*************************************************************************&quot;" newline="True"/>
+                    <output expression="&quot;Total price : &quot;" newline="True"/>
+                    <output expression="sum" newline="True"/>
+                    <output expression="&quot;*************************************************************************&quot;" newline="True"/>
+                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585; 1 : &#3617;&#3634;&#3619;&#3633;&#3610;&#3607;&#3637;&#3656;&#3619;&#3657;&#3634;&#3609;&#3652;&#3604;&#3657;&#3626;&#3656;&#3623;&#3609;&#3621;&#3604; 200 &#3610;&#3634;&#3607; &#3648;&#3621;&#3639;&#3629;&#3585; 2 : &#3626;&#3656;&#3591;&#3605;&#3656;&#3634;&#3591;&#3592;&#3633;&#3591;&#3627;&#3623;&#3633;&#3604;&#3648;&#3614;&#3636;&#3656;&#3617; 500 &#3610;&#3634;&#3607; &#3588;&#3656;&#3634;&#3592;&#3633;&#3604;&#3626;&#3656;&#3591;&#3626;&#3636;&#3609;&#3588;&#3657;&#3634;&quot;" newline="True"/>
+                    <input variable="ch"/>
+                    <if expression="ch ==  1">
+                        <then>
+                            <assign variable="sum" expression="sum-200"/>
+                        </then>
+                        <else>
+                            <if expression="ch == 2">
+                                <then>
+                                    <assign variable="sum" expression="sum + 500"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <output expression="&quot;Total sum : &quot;" newline="True"/>
+                    <output expression="sum" newline="True"/>
+                </then>
+                <else>
+                    <if expression="ch == 1">
+                        <then>
+                            <declare name="ls" type="Integer" array="False" size=""/>
+                            <declare name="n" type="Integer" array="False" size=""/>
+                            <output expression="&quot;Enter loop for choose :&quot;" newline="True"/>
+                            <input variable="ls"/>
+                            <assign variable="sum" expression="0"/>
+                            <for variable="n" start="0" end="ls" direction="inc" step="1">
+                                <output expression="&quot;Choose 1: CPU Choose 2 : Mainboard Choose 3 : VGA &quot;" newline="True"/>
+                                <input variable="ch"/>
+                                <if expression="ch == 1">
+                                    <then>
+                                        <output expression="&quot;CPU : &quot;" newline="True"/>
+                                        <output expression="&quot;Choose 1: I5-14600KF : 12790 bath&quot;" newline="True"/>
+                                        <output expression="&quot;Chosse 2: Ryzen 7 7800X3D : 162000 bath&quot;" newline="True"/>
+                                        <input variable="ch"/>
+                                        <assign variable="i514" expression="12790"/>
+                                        <assign variable="r778" expression="16200"/>
+                                        <declare name="sum" type="Real" array="False" size=""/>
+                                        <assign variable="sum" expression="0"/>
+                                        <if expression="ch == 1">
+                                            <then>
+                                                <assign variable="sum" expression="sum+i514"/>
+                                            </then>
+                                            <else>
+                                                <if expression="ch == 2">
+                                                    <then>
+                                                        <assign variable="sum" expression="sum+r778"/>
+                                                    </then>
+                                                    <else>
+                                                        <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </then>
+                                    <else>
+                                        <if expression="ch == 2">
+                                            <then>
+                                                <output expression="&quot;Mainboard : &quot;" newline="True"/>
+                                                <output expression="&quot;Chose 1:Asus Ex-B760M : 3850 &quot;" newline="True"/>
+                                                <output expression="&quot;Choose 2:GIGABYTE H610M K DDR4 : 2490 &quot;" newline="True"/>
+                                                <output expression="&quot;Choose 3 : ASUS ROG Strix Z790-I Gaming WIFI : 25900&quot;" newline="True"/>
+                                                <input variable="ch"/>
+                                                <assign variable="as760" expression="3850"/>
+                                                <assign variable="ggh61" expression="2490"/>
+                                                <assign variable="asz79" expression="25900"/>
+                                                <if expression="ch == 1">
+                                                    <then>
+                                                        <assign variable="sum" expression="sum+as760"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="ch == 2">
+                                                            <then>
+                                                                <assign variable="sum" expression="sum+ggh61"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="ch == 3">
+                                                                    <then>
+                                                                        <assign variable="sum" expression="sum+asz79"/>
+                                                                    </then>
+                                                                    <else>
+                                                                        <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 3 : &quot;" newline="True"/>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </then>
+                                            <else>
+                                                <if expression="ch == 3">
+                                                    <then>
+                                                        <output expression="&quot;Choose 1 : XFX Speedster QICK 319 Radeon RX 7800 XT Core Edition : 19900&quot;" newline="True"/>
+                                                        <output expression="&quot;Choose 2: COLORFUL iGame GeForce RTX 4070 Ti Ultra W OC-V : 31900&quot;" newline="True"/>
+                                                        <declare name="rx7800, rtx4070" type="Integer" array="False" size=""/>
+                                                        <assign variable="rx7800" expression="19900"/>
+                                                        <assign variable="rtx4070" expression="31900"/>
+                                                        <input variable="ch"/>
+                                                        <if expression="ch == 2">
+                                                            <then>
+                                                                <assign variable="sum" expression="sum + rtx4070"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="ch == 1">
+                                                                    <then>
+                                                                        <assign variable="sum" expression="sum+rx7800"/>
+                                                                    </then>
+                                                                    <else>
+                                                                        <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </then>
+                                                    <else>
+                                                        <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 3 : &quot;" newline="True"/>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </for>
+                            <output expression="&quot;*************************************************************************&quot;" newline="True"/>
+                            <output expression="&quot;Total price : &quot;" newline="True"/>
+                            <output expression="sum" newline="True"/>
+                            <output expression="&quot;*************************************************************************&quot;" newline="True"/>
+                            <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585; 1 : &#3617;&#3634;&#3619;&#3633;&#3610;&#3607;&#3637;&#3656;&#3619;&#3657;&#3634;&#3609;&#3652;&#3604;&#3657;&#3626;&#3656;&#3623;&#3609;&#3621;&#3604; 200 &#3610;&#3634;&#3607; &#3648;&#3621;&#3639;&#3629;&#3585; 2 : &#3626;&#3656;&#3591;&#3605;&#3656;&#3634;&#3591;&#3592;&#3633;&#3591;&#3627;&#3623;&#3633;&#3604;&#3648;&#3614;&#3636;&#3656;&#3617; 500 &#3610;&#3634;&#3607; &#3588;&#3656;&#3634;&#3592;&#3633;&#3604;&#3626;&#3656;&#3591;&#3626;&#3636;&#3609;&#3588;&#3657;&#3634;&quot;" newline="True"/>
+                            <input variable="ch"/>
+                            <if expression="ch ==  1">
+                                <then>
+                                    <assign variable="sum" expression="sum-200"/>
+                                </then>
+                                <else>
+                                    <if expression="ch == 2">
+                                        <then>
+                                            <assign variable="sum" expression="sum + 500"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                            <output expression="&quot;Total sum : &quot;" newline="True"/>
+                            <output expression="sum" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="ch == 3">
+                                <then>
+                                    <input variable="ch"/>
+                                    <assign variable="sum" expression="0"/>
+                                    <output expression="&quot;Mainboard : &quot;" newline="True"/>
+                                    <output expression="&quot;Chose 1:Asus Ex-B760M : 3850 &quot;" newline="True"/>
+                                    <output expression="&quot;Choose 2:GIGABYTE H610M K DDR4 : 2490 &quot;" newline="True"/>
+                                    <output expression="&quot;Choose 3 : ASUS ROG Strix Z790-I Gaming WIFI : 25900&quot;" newline="True"/>
+                                    <input variable="ch"/>
+                                    <declare name="as760, ggh61, asz79" type="Integer" array="False" size=""/>
+                                    <assign variable="as760" expression="3850"/>
+                                    <assign variable="ggh61" expression="2490"/>
+                                    <assign variable="asz79" expression="25900"/>
+                                    <if expression="ch == 1">
+                                        <then>
+                                            <assign variable="sum" expression="sum+as760"/>
+                                        </then>
+                                        <else>
+                                            <if expression="ch == 2">
+                                                <then>
+                                                    <assign variable="sum" expression="sum+ggh61"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="ch == 3">
+                                                        <then>
+                                                            <assign variable="sum" expression="sum+asz79"/>
+                                                        </then>
+                                                        <else>
+                                                            <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 3 : &quot;" newline="True"/>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                    <output expression="&quot;Choose 1 : XFX Speedster QICK 319 Radeon RX 7800 XT Core Edition : 19900&quot;" newline="True"/>
+                                    <output expression="&quot;Choose 2: COLORFUL iGame GeForce RTX 4070 Ti Ultra W OC-V : 31900&quot;" newline="True"/>
+                                    <declare name="rx7800, rtx4070" type="Integer" array="False" size=""/>
+                                    <assign variable="rx7800" expression="19900"/>
+                                    <assign variable="rtx4070" expression="31900"/>
+                                    <input variable="ch"/>
+                                    <if expression="ch == 2">
+                                        <then>
+                                            <assign variable="sum" expression="sum + rtx4070"/>
+                                        </then>
+                                        <else>
+                                            <if expression="ch == 1">
+                                                <then>
+                                                    <assign variable="sum" expression="sum+rx7800"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                    <output expression="&quot;*************************************************************************&quot;" newline="True"/>
+                                    <output expression="&quot;Total price : &quot;" newline="True"/>
+                                    <output expression="sum" newline="True"/>
+                                    <output expression="&quot;*************************************************************************&quot;" newline="True"/>
+                                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585; 1 : &#3617;&#3634;&#3619;&#3633;&#3610;&#3607;&#3637;&#3656;&#3619;&#3657;&#3634;&#3609;&#3652;&#3604;&#3657;&#3626;&#3656;&#3623;&#3609;&#3621;&#3604; 200 &#3610;&#3634;&#3607; &#3648;&#3621;&#3639;&#3629;&#3585; 2 : &#3626;&#3656;&#3591;&#3605;&#3656;&#3634;&#3591;&#3592;&#3633;&#3591;&#3627;&#3623;&#3633;&#3604;&#3648;&#3614;&#3636;&#3656;&#3617; 500 &#3610;&#3634;&#3607; &#3588;&#3656;&#3634;&#3592;&#3633;&#3604;&#3626;&#3656;&#3591;&#3626;&#3636;&#3609;&#3588;&#3657;&#3634;&quot;" newline="True"/>
+                                    <input variable="ch"/>
+                                    <if expression="ch ==  1">
+                                        <then>
+                                            <assign variable="sum" expression="sum-200"/>
+                                        </then>
+                                        <else>
+                                            <if expression="ch == 2">
+                                                <then>
+                                                    <assign variable="sum" expression="sum + 500"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 2 : &quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                    <output expression="&quot;Total sum : &quot;" newline="True"/>
+                                    <output expression="sum" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;&#3648;&#3621;&#3639;&#3629;&#3585;&#3619;&#3632;&#3627;&#3623;&#3656;&#3634;&#3591; 1 - 3 : &quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="set" type="Real" variable="i514 , r778">
+        <parameters/>
+        <body>
+            <output expression="&quot;CPU : &quot;" newline="True"/>
+            <output expression="&quot;I5-14600KF : 12790 bath&quot;" newline="True"/>
+            <declare name="i514" type="Integer" array="False" size=""/>
+            <assign variable="i514" expression="12790"/>
+            <output expression="&quot;Ryzen 7 7800X3D : 162000 bath&quot;" newline="True"/>
+            <declare name="r778" type="Integer" array="False" size=""/>
+            <assign variable="r778" expression="16200"/>
+        </body>
+    </function>
+</flowgorithm>
