@@ -6,7 +6,7 @@ def writ_database(list_order_data):
         host='localhost',
         port='3306',
         user='root',
-        password='Jaosou*2003',
+        password='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
         database='dbpython'
     )
     print(db)

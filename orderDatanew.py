@@ -6,7 +6,7 @@ db = mysql.connect(
         host='localhost',
         port='3306',
         user='root',
-        password='Jaosou*2003',
+        password='xxxxxxxxxxxxxxxxxxx',
         database='dbpython'
     )
 
